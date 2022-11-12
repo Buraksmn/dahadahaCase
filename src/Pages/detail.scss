@@ -1,0 +1,66 @@
+.campainPage {
+  position: relative;
+
+  .backButton {
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background-color: #1d1e1c;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+
+  .campainImageWrapper {
+    background-color: #ffffff;
+    z-index: 1;
+    position: relative;
+    border-radius: 20px;
+
+    .image {
+      width: 100vw;
+      height: auto;
+      border-radius: 16px 16px 16px 100px;
+    }
+    .brandIcon {
+      position: absolute;
+      width: 55px;
+      height: 55px;
+      left: 0;
+      bottom: 20px;
+    }
+  }
+  .contentWrapper {
+    padding: 20px;
+
+    .title {
+      text-align: center;
+      line-height: 30px;
+      font-weight: 700;
+      font-size: 26px;
+    }
+    .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+
+  .applyButtonWrapper {
+    position: fixed;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+
+    .button {
+      margin-left: 20px;
+      margin-right: 20px;
+      background-color: #f40000;
+      height: 56px;
+      border-radius: 25px;
+      color: #ffffff;
+    }
+  }
+}

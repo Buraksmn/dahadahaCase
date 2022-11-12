@@ -1,0 +1,50 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 69px;
+  width: 100vw;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  background-color: "white";
+  border: 1.5px solid #eceeef;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 20px 20px 0px 0px;
+
+  .contentWrapper {
+    padding-left: 40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+  }
+  .menuItem{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dahaPlusWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69px;
+    height: 69px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 0px 2px rgba(216, 216, 216, 0.5);
+    position: relative;
+    border-radius: 24px;
+    top: -20px;
+    border: 2px solid;
+    border-color: #F40000 #009639 #F1DE02 #FF8300;
+
+    
+    .plusButton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+}
